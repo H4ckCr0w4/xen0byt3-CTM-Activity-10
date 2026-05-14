@@ -1,0 +1,39 @@
+Logs:
+Hostname: kuro
+IP Address: 8.8.8.8
+
+User Activity Logs:
+help
+ip a
+ip route
+hostname -I
+ping facebook.com
+traceroute facebook.com
+netstat facebook.com
+netstat -tulnp
+nslookup facebook.com
+nslookup example.com
+nslookup google.com
+dig facebook.com
+nmap facebook.com
+nmap -sV google.com
+nmap -A google.com
+tcpdump -i Ethernet
+nslookup google.com
+nmap -sV google.com
+arp-scan --localnet
+
+sudo arp-scan --localnet
+help
+nc 192.168.1.1 21
+nc 192.168.1.1 22
+nc 192.168.1.1 23
+nc 192.168.1.1 25
+nc 192.168.1.1 80
+nc 192.168.1.1 443
+nc 192.168.1.1 445
+ls
+cat activity_log.txt
+cat activity_real.txt
+cat activity_10_log.txt
+wget activity_10_log.txt
