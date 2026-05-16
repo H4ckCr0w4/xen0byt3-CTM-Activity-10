@@ -1,37 +1,41 @@
 Logs:
-Hostname: kuro
-IP Address: 8.8.8.8
+Hostname: rm
+IP Address: 9.9.9.9
 
 User Activity Logs:
-help
 ip a
-ip route
 hostname -I
-ping facebook.com
-traceroute facebook.com
-netstat facebook.com
-netstat -tulnp
-nslookup facebook.com
-nslookup example.com
-nslookup google.com
-dig facebook.com
-nmap facebook.com
-nmap -sV google.com
-nmap -A google.com
-tcpdump -i Ethernet
-nslookup google.com
-nmap -sV google.com
-arp-scan --localnet
-
-sudo arp-scan --localnet
 help
-nc 192.168.1.1 21
-nc 192.168.1.1 22
-nc 192.168.1.1 23
-nc 192.168.1.1 25
-nc 192.168.1.1 80
-nc 192.168.1.1 443
-nc 192.168.1.1 445
+ping https://www.sinrevilo.moc
+traceroute https://www.sinrevilo.moc
+nslookup https://www.sinrevilo.moc
+nslookup sinrevilo.moc
+dig https://www.sinrevilo.moc
+nmap 89.562.167.1
+nmap -sV 89.562.167.1
+nmap -A 89.562.167.1
+
+ping https://www.xeno-byte.moc
+traceroute https://www.xeno-byte.moc
+nslookup https://www.xeno-byte.moc
+nslookup xeno-byte.moc
+dig https://www.xeno-byte.moc
+dig 149.658.125.3
+nmap 149.658.125.3
+nmap -sV 149.658.125.3
+nmap -A 149.658.125.3
+
+ping https://www.gi4nt-tcr.moc
+traceroute https://www.gi4nt-tcr.moc
+nslookup https://www.gi4nt-tcr.moc
+nslookup gi4nt-tcr.moc
+nmap 78.562.35.6
+nmap -sV 78.562.35.6
+nmap -A 78.562.35.6
+
+tcpdump -i Ethernet
+arp-scan --localnet
+sudo arp-scan --localnet
 ls
 cat activity_log.txt
 cat activity_real.txt
